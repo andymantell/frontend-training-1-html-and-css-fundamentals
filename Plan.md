@@ -1,5 +1,7 @@
 # Training plan
 
+(Work in progress)
+
 ## Session 1 - Fundamentals
 
 - Goal - to understand enough CSS and HTML fundamentals to increase confidence when using and extending the GOV.UK frontend kits
@@ -11,7 +13,7 @@
   - Semantics
   - Typography
   - Layout
-  - 
+  
 - Building a simple grid system to put our component in _(Reading https://css-tricks.com/dont-overthink-it-grids/)_
   _(In reference to the note in the 3rd paragraph of that article, we will cover flexbox later, and maybe CSS grid. GOV.UK still heavily use floats for layout however and the principles are still solid)_
   - Floating
@@ -35,6 +37,8 @@
   - Accessibility considerations of each
   - Tiniest bit of JavaScript to toggle display of something
   - How to bind an event handler
+- Some other form of interactivity?
+
 
 ## Session 3 - Forms
 
