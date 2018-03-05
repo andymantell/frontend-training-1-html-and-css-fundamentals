@@ -1,0 +1,23 @@
+.teaser {
+    background-color: white;
+}
+
+.teaser__heading {
+    margin: 0;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.teaser__image {
+    width: 100%;
+}
+
+.teaser__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.teaser__link:hover .teaser__heading {
+    color: blue;
+    text-decoration: underline;
+}
