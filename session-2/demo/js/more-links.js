@@ -1,13 +1,21 @@
 /* global $ */
 $('[data-expand]').each(function (index, item) {
-  var $link = $(this)
-  var $target = $('#' + $link.data('expand'))
+  var $trigger = $(this)
+  var $target = $('#' + $trigger.data('expand'))
+  var open = false
 
   $target.hide()
 
-  $link.on('click', function (e) {
+  $trigger.on('click', function (e) {
     e.preventDefault()
 
-    $target.slideToggle()
+    if (open) {
+      $target.slideUp()
+    } else {
+      $target.slideDown()
+      $target.attr('tabindex', -1).focus()
+    }
+
+    open = !open
   })
 })

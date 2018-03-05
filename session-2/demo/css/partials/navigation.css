@@ -1,74 +1,75 @@
 .navigation {
-    margin-bottom: 15px;
-    border-bottom: 1px solid #333;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #333;
 }
 
 .navigation::after {
-    content: '';
-    display: block;
-    clear: both;
+  content: '';
+  display: block;
+  clear: both;
 }
 
 .navigation__logo {
-    display: block;
-    padding: 8px 15px 8px 0;
+  display: block;
+  padding: 8px 15px 8px 0;
 }
 
 .navigation__section,
 .navigation__item {
-    float: left;
-    border-right: 1px solid #333;
-    padding: 0;
-    margin: 0;
+  float: left;
+  border-right: 1px solid #333;
+  padding: 0;
+  margin: 0;
 }
 
-.navigation__section:last-child {
-    border-right: 0;
+.navigation__section:last-child,
+.navigation__item:last-child {
+  border-right: 0;
 }
 
 .navigation__item {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .navigation__link {
-    height: 40px;
-    display: block;
-    line-height: 40px;
-    text-decoration: none;
-    color: inherit;
-    padding: 0 15px;
-    font-weight: bold;
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  text-decoration: none;
+  color: inherit;
+  padding: 0 15px;
+  font-weight: bold;
 }
 
 .navigation__link:hover {
-    border-bottom: 4px solid #333;
-    height: 36px;
+  border-bottom: 4px solid #333;
+  height: 36px;
 }
 
 .navigation__item:nth-child(1) .navigation__link {
-    border-bottom-color: red;
+  border-bottom-color: red;
 }
 
 .navigation__item:nth-child(2) .navigation__link {
-    border-bottom-color: orange;
+  border-bottom-color: orange;
 }
 
 .navigation__item:nth-child(3) .navigation__link {
-    border-bottom-color: yellow;
+  border-bottom-color: yellow;
 }
 
 .navigation__item:nth-child(4) .navigation__link {
-    border-bottom-color: green;
+  border-bottom-color: green;
 }
 
 .navigation__item:nth-child(5) .navigation__link {
-    border-bottom-color: blue;
+  border-bottom-color: blue;
 }
 
 .navigation__item:nth-child(6) .navigation__link {
-    border-bottom-color: indigo;
+  border-bottom-color: indigo;
 }
 
 .navigation__item:nth-child(7) .navigation__link {
-    border-bottom-color: violet;
+  border-bottom-color: violet;
 }

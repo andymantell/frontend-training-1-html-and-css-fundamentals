@@ -2,33 +2,9 @@
 
 (Work in progress)
 
-## Session 1 - Fundamentals
-
-- Goal - to understand enough CSS and HTML fundamentals to increase confidence when using and extending the GOV.UK frontend kits
-- Box model _(Reading https://css-tricks.com/the-css-box-model/)_
-- The `display` propery and block vs inline elements _(Reading https://css-tricks.com/almanac/properties/d/display/)_
-- Discuss approach to a design - Modularity, BEM (https://css-tricks.com/bem-101/)
-
-- Building our first component
-  - Semantics
-  - Typography
-  - Layout
-  
-- Building a simple grid system to put our component in _(Reading https://css-tricks.com/dont-overthink-it-grids/)_
-  _(In reference to the note in the 3rd paragraph of that article, we will cover flexbox later, and maybe CSS grid. GOV.UK still heavily use floats for layout however and the principles are still solid)_
-  - Floating
-  - Specifying column widths
-  - Fixing the zero height grid wrapper 
-  - Column gutters
-  - Linearising on mobile using media queries
-- Outer site container
 
 ## Session 2 - 
 
-- Making our site the right width
-- Switch font to Arial
-- Adding a navigation banner to our site
-- Adding simple JS toggle to the "more" link
 
 
 <!-- - Introduce flexbox as an alternative to floats (Note the tags on articles on bbc.co.uk that sit at 100% height)
