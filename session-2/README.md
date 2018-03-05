@@ -26,6 +26,7 @@ Applying what we learnt in session 1 to a more complex situation - building the 
   - Add a `<ul>` element and `<li>` and `<a>` elements for each navigation item.
   - Use the `float` property from last week's session to sit the items up on a single line
   - Apply `padding`, `border` and `font-weight` styles to achieve the design.  
+    - You will need to set `height` on your links so they match the height of the logo. And a `line-height` of the same amount to centre the text vertically
     - Think carefully about where you apply the padding to achieve a large "hit area" on the links
     - You will likely need to use `:first-child` and `:last-child` selectors to override styles for the first or last elements in a list.
   - Add hover states to the menu items using `border`
