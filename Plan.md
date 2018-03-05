@@ -23,10 +23,15 @@
 
 ## Session 2 - 
 
+- Making our site the right width
+- Switch font to Arial
+- Adding a navigation banner to our site
+- Adding simple JS toggle to the "more" link
 
-- Introduce flexbox as an alternative to floats (Note the tags on articles on bbc.co.uk that sit at 100% height)
 
-- Making a custom button with hover, active and pressed stated. 
+<!-- - Introduce flexbox as an alternative to floats (Note the tags on articles on bbc.co.uk that sit at 100% height)
+
+- Making a custom button with hover, active and pressed states. 
   - CSS gradients
   - Box shadow
   - Interactivity
@@ -35,6 +40,7 @@
   - Accessibility considerations of each
   - Tiniest bit of JavaScript to toggle display of something
   - How to bind an event handler
+  - Extend to build a simple tabbed component -->
 
 ## Session 3 - Forms
 
