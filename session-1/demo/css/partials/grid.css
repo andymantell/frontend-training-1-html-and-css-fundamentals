@@ -1,0 +1,23 @@
+@media (min-width: 500px) {
+    .grid {
+        outline: 5px dotted yellow;
+        margin-left: -15px;
+    }
+
+    /* clearfix */
+    .grid::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .grid__column {
+        float: left;
+        padding-left: 15px;
+        box-sizing: border-box;
+    }
+
+    .grid__column--one-third {
+        width: 33.333333333333%;
+    }
+}
