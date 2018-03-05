@@ -1,6 +1,6 @@
 /* global $ */
 $('[data-expand]').each(function (index, item) {    // Find all links with a data-expand attribute
-  var $trigger = $(this)                            // Grab a reference to the "more" link
+  var $trigger = $(item)                            // Grab a reference to the "more" link
   var $target = $($trigger.attr('href'))            // Use the value from the href attribute to find the target by ID
   var open = false                                  // Boolean to keep track of whether the menu is open or not
 
