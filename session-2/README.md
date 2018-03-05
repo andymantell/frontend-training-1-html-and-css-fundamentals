@@ -2,7 +2,7 @@
 
 ## Outline plan
 
-Applying what we learnt in session 1 to a more complex situation
+Applying what we learnt in session 1 to a more complex situation - building the navigation menu from the BBC homepage.
 
 **Stretch goal:** Use JavaScript to add interactivity to the menu
 
