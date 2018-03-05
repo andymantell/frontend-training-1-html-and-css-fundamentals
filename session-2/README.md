@@ -11,7 +11,7 @@
 
 ### Navigation banner
 
-  [Goal](goal.png)
+  ![Goal](goal.png)
 
 - Adding a navigation banner to our site
 - Adding simple JS toggle to the "more" link
