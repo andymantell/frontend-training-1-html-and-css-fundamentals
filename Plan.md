@@ -30,7 +30,7 @@
     - Checkboxes
     - Select boxes
     - Buttons
-- Using CSS to lay out the form
+- Using CSS to lay out the form (Flexbox?)
     - Positioning of label relative to controls
     - Error state for fields
 - Using JS to validate the form on submission and display errors
@@ -53,6 +53,13 @@
 Something a bit more fun? Animations? Transitions? Interactivity?
 SVG?
 
+candidates: 
+  background-position: fixed
+  horizontal parallax (image of a car + a road for example)
+
+  can we build a game in 2 hours?
+
+  flexbox tic tac toe
 
 
 

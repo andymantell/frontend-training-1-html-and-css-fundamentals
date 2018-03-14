@@ -1,0 +1,53 @@
+.form__element {
+  margin-bottom: 20px;
+}
+
+.form__label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form__control {
+  padding: 5px 8px;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+.form__group {
+  border: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.form__flex {
+  display: flex;
+}
+
+.form__flex > div {
+  margin-right: 20px;
+}
+
+.button {
+  padding: 8px 15px;
+  margin: 0 10px 10px 0;
+  background-color: #2E358B;
+  color: #fff;
+  border: 2px solid #6F72AF;
+  border-radius: 5px;
+  font-size: inherit;
+  text-decoration: none;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  transition: 0.1s box-shadow ease-in-out, 0.1s transform ease-in-out;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: white;
+  color: #2E358B;
+}
+
+.button:active {
+  box-shadow: 0 0 0 rgba(0,0,0,0.5);
+  transform: translateY(2px);
+}

@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+
+    <div class="grid">
+        <div class="grid__column grid__column--two-thirds">
+
+            <form class="form" method="GET" action="/">
+                <div class="form__element">
+                    <label class="form__label" for="demoTextId">Text field</label>
+                    <input class="form__control" type="text" id="demoTextId" name="demoTextName">
+                </div>
+
+                <div class="form__element">
+                    <label class="form__label" for="demoEmailId">Email field</label>
+                    <input class="form__control" type="email" id="demoEmailId" name="demoEmailName" placeholder="This is a placeholder">
+                </div>
+
+                <div class="form__element">
+                    <label class="form__label" for="demoPasswordId">Password field</label>
+                    <input class="form__control" type="password" id="demoPasswordId" name="demoPasswordName">
+                </div>
+
+                <div class="form__element">
+                    <label class="form__label" for="demoSelectId">Select field</label>
+                    <select class="form__control" id="demoSelectId" name="demoSelectName">
+                        <option value="1">Foo</option>
+                        <option value="2">Bar</option>
+                        <option value="3">Wibble</option>
+                    </select>
+                </div>
+
+                <div class="form__element">
+                    <label class="form__label" for="demoSelectId">Textarea field</label>
+                    <textarea id="demoSelectId" name="demoTextareaName" rows="5"></textarea>
+                </div>
+
+                <fieldset class="form__group">
+                    <legend class="form__label">Checkboxes</legend>
+
+                    <div class="form__element">
+                        <input type="checkbox" value="1" id="demoCheckboxOne" name="demoCheckboxesName">
+                        <label class="" for="demoCheckboxOne">Option 1</label>
+                    </div>
+                    <div class="form__element">
+                        <input type="checkbox" value="2" id="demoCheckboxTwo" name="demoCheckboxesName">
+                        <label class="" for="demoCheckboxTwo">Option 2</label>
+                    </div>
+                    <div class="form__element">
+                        <input type="checkbox" value="3" id="demoCheckboxThree" name="demoCheckboxesName">
+                        <label class="" for="demoCheckboxThree">Option 3</label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="form__group">
+                    <legend class="form__label">Radios</legend>
+
+                    <div class="form__element">
+                        <input type="radio" value="1" id="demoRadioOne" name="demoRadiosName">
+                        <label class="" for="demoRadioOne">Option 1</label>
+                    </div>
+                    <div class="form__element">
+                        <input type="radio" value="2" id="demoRadioTwo" name="demoRadiosName">
+                        <label class="" for="demoRadioTwo">Option 2</label>
+                    </div>
+                    <div class="form__element">
+                        <input type="radio" value="3" id="demoRadioThree" name="demoRadiosName">
+                        <label class="" for="demoRadioThree">Option 3</label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="form__group">
+                    <legend class="form__label">Enter your credit card number</legend>
+
+                    <div class="form__flex">
+                        <div class="form__element">
+                            <label class="form__label visuallyhidden" for="demoCardNumberOne">First four digits of card number</label>
+                            <input class="form__control" type="text" id="demoCardNumberOne" name="demoCardNumberOne" size="4" maxlength="4">
+                        </div>
+
+                        <div class="form__element">
+                            <label class="form__label visuallyhidden" for="demoCardNumberOne">Second four digits of card number</label>
+                            <input class="form__control" type="text" id="demoCardNumberOne" name="demoCardNumberOne" size="4" maxlength="4">
+                        </div>
+
+                        <div class="form__element">
+                            <label class="form__label visuallyhidden" for="demoCardNumberOne">Third four digits of card number</label>
+                            <input class="form__control" type="text" id="demoCardNumberOne" name="demoCardNumberOne" size="4" maxlength="4">
+                        </div>
+
+                        <div class="form__element">
+                            <label class="form__label visuallyhidden" for="demoCardNumberOne">Last four digits of card number</label>
+                            <input class="form__control" type="text" id="demoCardNumberOne" name="demoCardNumberOne" size="4" maxlength="4">
+                        </div>
+                    </div>
+                </fieldset>
+
+                <input type="submit" value="Submit" class="button">
+
+                <button class="button">Also a submit button</button>
+
+                <button type="button" class="button">Not a submit button!</button>
+
+                <a href="#" class="button">I'm a link which looks like a button</a>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</body>
+</html
