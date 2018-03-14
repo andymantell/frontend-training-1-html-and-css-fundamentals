@@ -1,4 +1,4 @@
-# Session 3
+# Session 3 (http://bit.ly/2DpT1YU)
 
 ## Outline plan
 
