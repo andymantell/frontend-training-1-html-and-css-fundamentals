@@ -1,8 +1,10 @@
 # Session 3 (http://bit.ly/2DpT1YU)
 
-## Outline plan
+## Goal
 
-Referring to the cheat sheet, build a form with:
+![Goal](screenshot.png)
+
+## Outline plan
 
 - Set up the form:
   `<form class="form" method="GET" action="/">`
