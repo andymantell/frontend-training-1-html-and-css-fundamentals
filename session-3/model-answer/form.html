@@ -9,28 +9,35 @@
     <div class="grid">
         <div class="grid__column grid__column--two-thirds">
 
-            <form class="form" method="GET" action="/">
+            <form id="myForm" class="form" method="GET" action="/" novalidate>
                 <div class="form__element">
                     <label class="form__label" for="demoTextId">Text field</label>
-                    <input class="form__control" type="text" id="demoTextId" name="demoTextName">
+                    <input class="form__control" type="text" id="demoTextId" name="demoTextName" required>
                 </div>
 
                 <div class="form__element">
                     <label class="form__label" for="demoEmailId">Email field</label>
-                    <input class="form__control" type="email" id="demoEmailId" name="demoEmailName" placeholder="This is a placeholder">
+                    <input class="form__control" type="email" id="demoEmailId" name="demoEmailName" placeholder="This is a placeholder" required>
                 </div>
 
                 <div class="form__element">
                     <label class="form__label" for="demoPasswordId">Password field</label>
-                    <input class="form__control" type="password" id="demoPasswordId" name="demoPasswordName">
+                    <input class="form__control" type="password" id="demoPasswordId" name="demoPasswordName" required>
                 </div>
 
                 <div class="form__element">
                     <label class="form__label" for="demoSelectId">Select field</label>
-                    <select class="form__control" id="demoSelectId" name="demoSelectName">
+                    <select class="form__control" id="demoSelectId" name="demoSelectName" required>
+                        <option value="">Please select an option</option>
                         <option value="1">Foo</option>
-                        <option value="2">Bar</option>
-                        <option value="3">Wibble</option>
+                        <optgroup label="Devon">
+                            <option value="2">Plymouth</option>
+                            <option value="3">Exeter</option>
+                        </optgroup>
+                        <optgroup label="Cornwall">
+                            <option value="4">Plymouth</option>
+                            <option value="5">Chip shop</option>
+                        </optgroup>
                     </select>
                 </div>
 
@@ -105,11 +112,14 @@
 
                 <button type="button" class="button">Not a submit button!</button>
 
+                <button type="button" class="button button--ugly">Not a submit button!</button>
+
                 <a href="#" class="button">I'm a link which looks like a button</a>
             </form>
         </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/form-validation.js"></script>
 </body>
 </html
