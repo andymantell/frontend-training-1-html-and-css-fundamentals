@@ -1,5 +1,7 @@
 # Session 3 (http://bit.ly/2DpT1YU)
 
+Model answer here: https://andymantell.github.io/frontend-training-1-html-and-css-fundamentals/session-3/model-answer/form.html
+
 ## Goal
 
 ![Goal](screenshot.png)
