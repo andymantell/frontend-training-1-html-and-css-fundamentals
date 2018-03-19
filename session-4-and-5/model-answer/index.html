@@ -7,97 +7,63 @@
 </head>
 <body>
 
+    <script>
+        function generateCards(number) {
+            for(var i=0; i < number; i++) {
+                var text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
+                text = text.substr(0, Math.ceil(Math.random() * text.length))
+                var card = `<article class="card">
+                    <a href="#">
+                        <p class="card__title">${text}</p>
+                    </a>
+                    <dialog class="card__full">Hello</dialog>
+                </article>`
+
+                document.write(card)
+            }
+        }
+    </script>
+
     <main class="wrapper">
         <section class="column">
             <div class="column__inner">
-
-                <script>
-                    (function() {
-                        for(var i=0; i < Math.random() * 20; i++) {
-                            var text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
-                            document.write('<article class="card"><a href="#"><p class="card__title">' + text.substr(0, Math.ceil(Math.random() * text.length)) + '</p></a><dialog class="card__full">Hello</dialog></article>')
-                        }
-                    })()
-                </script>
-
+                <script>generateCards(20)</script>
             </div>
         </section>
 
         <section class="column">
             <div class="column__inner">
-                <script>
-                    (function() {
-                        for(var i=0; i < Math.random() * 20; i++) {
-                            var text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
-                            document.write('<article class="card"><a href="#"><p class="card__title">' + text.substr(0, Math.ceil(Math.random() * text.length)) + '</p></a></article>')
-                        }
-                    })()
-                </script>
+                <script>generateCards(5)</script>
             </div>
         </section>
 
         <section class="column">
             <div class="column__inner">
-                <script>
-                    (function() {
-                        for(var i=0; i < Math.random() * 20; i++) {
-                            var text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
-                            document.write('<article class="card"><a href="#"><p class="card__title">' + text.substr(0, Math.ceil(Math.random() * text.length)) + '</p></a></article>')
-                        }
-                    })()
-                </script>
+                <script>generateCards(10)</script>
             </div>
         </section>
 
         <section class="column">
             <div class="column__inner">
-                <script>
-                    (function() {
-                        for(var i=0; i < Math.random() * 20; i++) {
-                            var text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
-                            document.write('<article class="card"><a href="#"><p class="card__title">' + text.substr(0, Math.ceil(Math.random() * text.length)) + '</p></a></article>')
-                        }
-                    })()
-                </script>
+                <script>generateCards(1)</script>
             </div>
         </section>
 
         <section class="column">
             <div class="column__inner">
-                <script>
-                    (function() {
-                        for(var i=0; i < Math.random() * 20; i++) {
-                            var text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
-                            document.write('<article class="card"><a href="#"><p class="card__title">' + text.substr(0, Math.ceil(Math.random() * text.length)) + '</p></a></article>')
-                        }
-                    })()
-                </script>
+                <script>generateCards(20)</script>
             </div>
         </section>
 
         <section class="column">
             <div class="column__inner">
-                <script>
-                    (function() {
-                        for(var i=0; i < Math.random() * 20; i++) {
-                            var text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
-                            document.write('<article class="card"><a href="#"><p class="card__title">' + text.substr(0, Math.ceil(Math.random() * text.length)) + '</p></a></article>')
-                        }
-                    })()
-                </script>
+                <script>generateCards(40)</script>
             </div>
         </section>
 
         <section class="column">
             <div class="column__inner">
-                <script>
-                    (function() {
-                        for(var i=0; i < Math.random() * 20; i++) {
-                            var text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
-                            document.write('<article class="card"><a href="#"><p class="card__title">' + text.substr(0, Math.ceil(Math.random() * text.length)) + '</p></a></article>')
-                        }
-                    })()
-                </script>
+                <script>generateCards(3)</script>
             </div>
         </section>
 
