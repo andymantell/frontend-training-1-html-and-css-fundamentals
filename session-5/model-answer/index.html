@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.css" integrity="sha256-EYSmiSz2daAX5Xq+m8lxGFf+qWABUgdCPUvU5X0vpI4=" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+
+    <script>
+        function generateCards(number) {
+            for(var i=0; i < number; i++) {
+                var text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
+                text = text.substr(0, Math.ceil(Math.random() * text.length))
+                var card = `<article class="card">
+                    <a href="#">
+                        <p class="card__title">${text}</p>
+                    </a>
+                    <dialog class="card__full">Hello</dialog>
+                </article>`
+
+                document.write(card)
+            }
+        }
+    </script>
+
+    <main class="wrapper">
+        <section class="column">
+            <div class="column__inner">
+                <script>generateCards(20)</script>
+            </div>
+        </section>
+
+        <section class="column">
+            <div class="column__inner">
+                <script>generateCards(5)</script>
+            </div>
+        </section>
+
+        <section class="column">
+            <div class="column__inner">
+                <script>generateCards(10)</script>
+            </div>
+        </section>
+
+        <section class="column">
+            <div class="column__inner">
+                <script>generateCards(1)</script>
+            </div>
+        </section>
+
+        <section class="column">
+            <div class="column__inner">
+                <script>generateCards(20)</script>
+            </div>
+        </section>
+
+        <section class="column">
+            <div class="column__inner">
+                <script>generateCards(40)</script>
+            </div>
+        </section>
+
+        <section class="column">
+            <div class="column__inner">
+                <script>generateCards(3)</script>
+            </div>
+        </section>
+
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.js" integrity="sha256-rVf3H94DblhP4Z6wLSa2mpMwRS5qePBWykE6QWPOaO0=" crossorigin="anonymous"></script>
+    <script src="js/drag.js"></script>
+    <script src="js/dialog.js"></script>
+
+</body>
+</html

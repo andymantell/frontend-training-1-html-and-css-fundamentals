@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 20px;
+}
+
+.column {
+  flex: 0 0 300px;
+  background-color: rgba(0,0,0,0.3);
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.column__inner {
+  overflow-y: auto;
+  height: 100%;
+  padding-right: 10px;
+}
