@@ -2,7 +2,7 @@
 
 Carrying on with our Trello example from session 4, please add:
 
-- Column headings https://github.com/andymantell/frontend-training-1-html-and-css-fundamentals/commit/99e0e22a319f851f035e379ff6b10e3b90ce43e8
+- Column headings [Code diff](https://github.com/andymantell/frontend-training-1-html-and-css-fundamentals/commit/99e0e22a319f851f035e379ff6b10e3b90ce43e8)
   Refer to http://www.barelyfitz.com/screencast/html-training/css/positioning/
   (Andy will demo this...)
 - Add <dialog> elements and open them on click
