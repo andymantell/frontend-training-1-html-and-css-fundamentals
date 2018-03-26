@@ -5,7 +5,7 @@ Carrying on with our Trello example from session 4, please add:
 - Column headings ([Code diff](https://github.com/andymantell/frontend-training-1-html-and-css-fundamentals/commit/99e0e22a319f851f035e379ff6b10e3b90ce43e8))  
   Refer to http://www.barelyfitz.com/screencast/html-training/css/positioning/  
   (Andy will demo this...)
-- Add <dialog> elements and open them on click
+- Add <dialog> elements and open them on click ([Code diff](https://github.com/andymantell/frontend-training-1-html-and-css-fundamentals/commit/9e96de1fe7913393d239311936df0c1edcf5e6a4))  
 - Add a close button to the dialog element (Using absolute positioning again)
 - Add a heading to the dialog
 - Add 2 columns inside the dialog element
