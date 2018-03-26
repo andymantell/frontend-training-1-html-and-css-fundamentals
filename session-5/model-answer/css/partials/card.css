@@ -3,10 +3,8 @@
   border: 1px solid #333;
   border-radius: 10px;
   margin: 0 0 10px 0;
-  padding: 20px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   box-sizing: border-box;
-  cursor: pointer;
   user-select: none;
   transition: 0.1s background-color ease-in-out;
 }
@@ -18,6 +16,9 @@
 .card a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
+  padding: 20px;
+  display: block;
 }
 
 .gu-unselectable .card {
