@@ -41,3 +41,9 @@
 .card__full::backdrop {
   background-color: rgba(0,0,0,0.75);
 }
+
+.card__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
