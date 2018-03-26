@@ -2,7 +2,7 @@
 
 Carrying on with our Trello example from session 4, please add:
 
-- Column headings ([Code change](99e0e22a319f851f035e379ff6b10e3b90ce43e8))
+- Column headings 99e0e22a319f851f035e379ff6b10e3b90ce43e8  
   Refer to http://www.barelyfitz.com/screencast/html-training/css/positioning/
   (Andy will demo this...)
 - Add <dialog> elements and open them on click
