@@ -34,7 +34,32 @@
                                 </form>
                             </div>
                             <div class="grid__column grid__column--one-quarter">
-                                <p>Foo</p>
+                                <form>
+                                    <div class="checkbox-toggle">
+                                        <input class="checkbox-toggle__control" type="checkbox" name="card-labels-${cardId}" id="card-labels-${cardId}-foo" value="foo">
+                                        <label class="checkbox-toggle__label" for="card-labels-${cardId}-foo">
+                                            Foo
+                                            <div class="checkbox-toggle__blob"></div>
+                                        </label>
+
+                                    </div>
+
+                                    <div class="checkbox-toggle">
+                                        <input class="checkbox-toggle__control" type="checkbox" name="card-labels-${cardId}" id="card-labels-${cardId}-bar" value="bar">
+                                        <label class="checkbox-toggle__label" for="card-labels-${cardId}-bar">
+                                            Bar
+                                            <div class="checkbox-toggle__blob"></div>
+                                        </label>
+                                    </div>
+
+                                    <div class="checkbox-toggle">
+                                        <input class="checkbox-toggle__control" type="checkbox" name="card-labels-${cardId}" id="card-labels-${cardId}-wibble" value="wibble">
+                                        <label class="checkbox-toggle__label" for="card-labels-${cardId}-wibble">
+                                            Wibble
+                                            <div class="checkbox-toggle__blob"></div>
+                                        </label>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                         <a class="card__close" href="#"><span class="visuallyhidden">Close</span>✘</a>

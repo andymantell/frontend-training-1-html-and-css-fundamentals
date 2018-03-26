@@ -77,3 +77,36 @@
 .button--ugly:active {
   box-shadow: 0 0 0 rgb(75,75,75);
 }
+
+.checkbox-toggle {
+  overflow: hidden;
+}
+
+.checkbox-toggle__control {
+  position: absolute;
+  left: -10000px;
+}
+
+.checkbox-toggle__blob {
+  background: linear-gradient(#999, #777);
+  border-radius: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.checkbox-toggle__blob:after {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: radial-gradient(#ddd, #eee);
+}
+
+.checkbox-toggle__control:checked + .checkbox-toggle__label .checkbox-toggle__blob:after {
+  left: auto;
+  right: 5px;
+}
