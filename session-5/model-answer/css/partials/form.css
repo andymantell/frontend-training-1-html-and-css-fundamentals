@@ -80,6 +80,7 @@
 
 .checkbox-toggle {
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .checkbox-toggle__control {
@@ -88,25 +89,50 @@
 }
 
 .checkbox-toggle__blob {
-  background: linear-gradient(#999, #777);
+  border: 3px solid #333;
   border-radius: 30px;
   height: 30px;
   position: relative;
+  max-width: 80px;
+  cursor: pointer;
 }
 
 .checkbox-toggle__blob:after {
   position: absolute;
+  margin-left: -25px;
   top: 5px;
-  left: 5px;
+  left: 30px;
+  transition: 0.2s left ease-in-out, 0.2s background-color ease-in-out;
   content: '';
   display: block;
   width: 20px;
   height: 20px;
   border-radius: 20px;
-  background: radial-gradient(#ddd, #eee);
+  background: #999;
+}
+
+.checkbox-toggle__blob:before {
+  content: 'Off';
+  text-transform: uppercase;
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%) translateX(calc(-100% - 10px));
+  font-size: 10px;
+  font-family: monospace;
+  transition: 0.2s all ease-in-out;
+  color: red;
 }
 
 .checkbox-toggle__control:checked + .checkbox-toggle__label .checkbox-toggle__blob:after {
-  left: auto;
-  right: 5px;
+  left: 100%;
+  background: #333;
+}
+
+.checkbox-toggle__control:checked + .checkbox-toggle__label .checkbox-toggle__blob:before {
+  content: 'On';
+  left: 10px;
+  right: auto;
+  transform: translateY(-50%) translateX(0);
+  color: green;
 }
