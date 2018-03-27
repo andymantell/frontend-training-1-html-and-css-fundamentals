@@ -15,7 +15,7 @@ Carrying on with our Trello example from session 4, please add:
 - Add 2 columns inside the dialog element ([Code diff](https://github.com/andymantell/frontend-training-1-html-and-css-fundamentals/commit/255638a50b462b69f019cb72f008c7c15965c2bb))  
   - Put text content in the left column.
   - Add a comment form below it ([Code diff](https://github.com/andymantell/frontend-training-1-html-and-css-fundamentals/commit/3dd3b926abe01349abd701a1ae5b396c36bfe26a))  
-  - Add some "label" toggles to the right hand column using radio buttons, and style them up to look nice  
+  - Add some toggles to the right hand column using radio buttons, and style them up to look nice  
     Minimal example here: https://codepen.io/andymantell/pen/geXXBR
   
 - Discussion on how we might save the sort order of the cards to a server using "weights"
